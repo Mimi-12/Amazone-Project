@@ -1,0 +1,121 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  /* border-radius: 24px; */
+}
+.header__searchInput {
+  height: 11px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__clearlink {
+  text-decoration: none;
+}
+.Header-Options{
+  display: flex;
+   background-color: #232F3E;
+   z-index: 10px;
+}
+.Header-Options ul{
+  display: flex;
+}
+.Header-Options ul li {
+  list-style-type: none;
+   /* margin: 10px 0; */
+    padding: 4px 6px;
+    
+}
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.Header-First {
+  color: white;
+  margin-top: 12px;
+}
+.Header-options .Header-First :hover {
+   border: 1px solid #d0d0d0;
+}
+.link-covid{
+   color: white;
+  text-decoration: none;
+  padding: 4px 50px;
+ 
+}
+h4{
+  padding-right: 30px;
+}
+.Header-Options ul li:hover {
+   border: 1px solid #d0d0d0;
+}
+.dropDown ul li a{
+  text-decoration: none;
+color: black;
+}
+.dropDown ul li {
+  background-color: white;
+  list-style: none;
+  padding: 0 10px;
+  margin-right: 160px;
+  overflow-y: scroll;
+  max-height: 40px;
+  /* margin-left: 40px; */
+}
+
+#dropdown-basic{
+  display: flex;
+  padding: 4px 5px;
+}
+/* ********************************************** */

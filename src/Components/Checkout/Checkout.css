@@ -1,0 +1,24 @@
+/* https://m.media-amazon.com/images/I/411lLGHkbYL._AC_SY200_.jpg */
+/* https://m.media-amazon.com/images/I/51gV00JpBjL._AC_SY200_.jpg */
+/* banner */
+/* https://images-na.ssl-images-amazon.com/images/G/0…lHero_ShipATW_Modified_en_US_1x._CB419795291_.jpg */
+
+
+
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
